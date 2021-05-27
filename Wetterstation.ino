@@ -8,9 +8,15 @@
 #include <TH02_dev.h>
 //Barometer
 #include <HP20x_dev.h>
+//Sonnenlicht
+#include <SI114X.h>
+
+unsigned char ret = 0;
+boolean baroReady;
+
+SI114X SI1145 = SI114X();
 
 int i = 1;
-boolean baro = false;
 
 void setup()
 {
@@ -26,7 +32,16 @@ void setup()
     //Setzt das Barometer (HP20x_dev) zurück
     HP20x.begin();
     delay(100);
-    
+
+    ret = HP20x.isAvailable();
+    if(OK_HP20X_DEV == ret)
+    {
+      baroReady = true;   
+    }
+    else
+    {
+      baroReady = false;
+    }
     Serial.println("Die Wetterstation ist bereit.");
     delay(5000);
 }

@@ -17,7 +17,7 @@
 <ul>
     <li>Grove barometer HP20x
     <li>Grove Temper Humidity TH02
-    <li>
+    <li>Grove - Sunlight Sensor
 </ul>
 
 ### Bill Greiman

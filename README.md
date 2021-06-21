@@ -4,12 +4,19 @@
 ### Controller
 <ul>
     <li>Arduino Mega 2560
-    <li>Grove - Mega Shield
+    <li>Grove - Mega Shield (C13-232)
 </ul>
 
 ### Sensoren
 <ul>
-    <li>
+    <li>Grove-Temperature & Humidity Sensor (C22-602)
+    <li>Grove-Barometer (C22-811)
+    <li>Grove-Sunlight Sensor (C22-617)
+</ul>
+
+### Bildschirm
+<ul>
+    <li>Funduino 1,3” OLED Mini Display I²C (E 1-8)
 </ul>
 
 ## Verwendete Libraries

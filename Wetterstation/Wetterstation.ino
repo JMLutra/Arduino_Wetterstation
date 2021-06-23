@@ -1,5 +1,4 @@
 
-
 /*
  * Author       : Johannes Münch 
 */
@@ -14,15 +13,8 @@
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1331.h>
 
-#define sclk 21
-#define mosi 20
-#define cs 10
-#define rst 9
-#define dc 8 
 
 int i = 1;
-
-Adafruit_SSD1331 display = Adafruit_SSD1331(&SPI, cs, dc, rst);
 
 void setup()
 {
@@ -79,9 +71,6 @@ void loop()
   Serial.print(alt);
   Serial.println("m");
   Serial.println("~~~~~~~~~~~~~~~~~ \n");
-
-  //Output normaler Monitor
-
 
   delay(5000);
 

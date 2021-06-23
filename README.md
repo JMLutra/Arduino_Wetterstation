@@ -11,7 +11,7 @@
 <ul>
     <li>Grove-Temperature & Humidity Sensor (C22-602)
     <li>Grove-Barometer (C22-811)
-    <li>Grove-Sunlight Sensor (C22-617)
+    <li>[Grove-Sunlight Sensor (C22-617)] war geplant 
 </ul>
 
 ### Bildschirm
@@ -24,7 +24,7 @@
 <ul>
     <li>Grove barometer HP20x
     <li>Grove Temper Humidity TH02
-    <li>Grove - Sunlight Sensor
+    <li>[Grove - Sunlight Sensor]
 </ul>
 
 ### Bill Greiman

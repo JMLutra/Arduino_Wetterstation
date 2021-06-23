@@ -11,12 +11,12 @@
 <ul>
     <li>Grove-Temperature & Humidity Sensor (C22-602)
     <li>Grove-Barometer (C22-811)
-    <li>[Grove-Sunlight Sensor (C22-617)] war geplant 
+    <li> <del>Grove-Sunlight Sensor (C22-617)
 </ul>
 
 ### Bildschirm
 <ul>
-    <li>Funduino 1,3” OLED Mini Display I²C (E 1-8)
+    <li> <del>Funduino 1,3” OLED Mini Display I²C (E 1-8)
 </ul>
 
 ## Verwendete Libraries
@@ -24,10 +24,10 @@
 <ul>
     <li>Grove barometer HP20x
     <li>Grove Temper Humidity TH02
-    <li>[Grove - Sunlight Sensor]
+    <li> <del>Grove - Sunlight Sensor
 </ul>
 
-### Bill Greiman
+### Adafruit
 <ul>
-    <li>SSD1306Ascii
+    <li> <del>Adafruit SI1145 Library
 </ul>

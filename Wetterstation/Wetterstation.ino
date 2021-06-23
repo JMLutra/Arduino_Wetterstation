@@ -1,6 +1,7 @@
 
 /*
  * Author       : Johannes Münch 
+ * Github       : https://github.com/JMLutra/
 */
 
 //Wird für alles benötigt

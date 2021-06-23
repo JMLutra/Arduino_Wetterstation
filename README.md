@@ -29,5 +29,5 @@
 
 ### Adafruit
 <ul>
-    <li> <del>Adafruit SI1145 Library
+    <li> <del>Adafruit SSD1331 OLED Driver Library for Arduino
 </ul>
